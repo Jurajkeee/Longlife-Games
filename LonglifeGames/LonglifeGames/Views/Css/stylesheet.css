@@ -282,14 +282,31 @@ header .logo {
     left: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#message .text-header {
+    margin-top:40px;
+}
+#message .text-content{
+    margin-top:5px;
+    font-size:1vw;
+}
+.testimonials{
+    background:black;
+    min-width:20px !important;
+    min-height:20px !important;
+}
+   .social-media {
+        margin: 0px !important;
+        margin-right: 0 !important;
+        margin-left: 5% !important;
+    }
+    /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~Article~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#article {
-    background: #DDE2E6;
-    width: 100%;
-    min-height: 100vh;
-}
+    #article {
+        background: #DDE2E6;
+        width: 100%;
+        min-height: 100vh;
+    }
     #article .bg-image-container {
         padding-right: 0px;
         padding-left: 0px;
@@ -305,12 +322,18 @@ header .logo {
         padding: 8%;
         box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.1);
     }
-   
+.article-text-container h1, .article-text-container p {
+    line-height:190%;
+    font-family: Noto Sans;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~Tool Description~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.cooming-soon{
-    height:50vh;
+.cooming-soon {
+    height: 50vh;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~Pure CSS~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .black-text{
