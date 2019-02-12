@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="ubuntu-font">
+    <ul class="align-vertical">
+        <li class="to-hide"><a href="@Url.Action("AboutUs", "Home")">About us</a></li>
+        <li class="to-hide"><a href="@Url.Action("Games", "Home")">Games</a></liclass="to-hide">
+        <li class="to-hide"><a href="@Url.Action("Blog", "Home")">Blog</a></li>
+
+      <li class="central-button"><a href="@Url.Action("Index", "Home")"><span class="square"><img src="@Url.Content("~/Views/Images/Logo.png")" class="logo"></span></a></li>
+
+        <li class="to-hide"><a href="@Url.Action("Tools", "Home")">Tools</a></li>
+        <li class="to-hide"><a href="@Url.Action("Team", "Home")">Team</a></li>
+        <li class="to-hide"><a href="@Url.Action("ContactUs", "Home")">Contact us</a></li>
+    </ul>
+</header>
+

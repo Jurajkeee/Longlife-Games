@@ -1,0 +1,165 @@
+﻿@{
+                /**/
+
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <section id="first-carousel">
+        <div class="container-fluid" style="padding:0px;">
+            <div class="row no-gutters">
+                <div class="col-lg-8 align-self-start  change-to-half-on-resize">
+                    <img src="@Url.Content("~/Views/Images/MenuV3.png")" class="slides-carousel">
+                </div>
+                <div class="col-lg-4 black-bg text-container layer-3 change-to-half-on-resize padding-5 padding-top-20vh">
+                    <h1 class="text-header">BladePade</h1>
+
+                    <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    </p>
+                    <div class="button pink-bg"><span>Learn More</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @*AboutUs*@
+    <section id="about-us">
+        <div class="container-fluid" style="padding:0px;">
+            <div class="row no-gutters half-of-screen">
+                <div class="col-lg-6 black-bg half-of-screen layer-3 to-hide">
+                    <h1 class="text-header">About us</h1>
+
+                    <p class="text-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <div class="button pink-bg"><span>Learn More</span></div>
+                </div>
+                <div class="col-lg-6 half-of-screen hide-overflow">
+                    <img src="@Url.Content("~/Views/Images/pexels-photo-1509428.jpeg")">
+                </div>
+
+
+            </div>
+            <div class="row no-gutters half-of-screen to-hide">
+
+                <div class="col-lg-6 hide-overflow to-hide">
+                    <img src="@Url.Content("~/Views/Images/pexels-photo-374720.jpeg")">
+                </div>
+
+
+                <div class="col-lg-6 black-bg layer-3 ">
+                    <h1 class="text-header">Our Team</h1>
+
+                    <p class="text-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <div class="button pink-bg"><span>Learn More</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    @*Games*@
+    <section id="games">
+        <div class="container-fluid" style="padding:0px;">
+            <div class="row no-gutters">
+                <div class="col-lg-4 black-bg align-self-start text-container to-hide"></div>
+                <div class="col-lg-8 hide-overflow">
+                    <img src="@Url.Content("~/Views/Images/screen-1.png")">
+                </div>
+                <div class="col-lg-4 black-bg align-self-start text-container hide-on-lg"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    @*Blog*@
+    <section id="blog">
+        <div class="container-fluid   to-hide" style="padding:0px;">
+            <div class="row no-gutters" >
+
+                <div class="col-lg-5 align-self-start full-screen-height">
+                    @*NewArticle*@
+                <div class="absolute layer-4 article-preview align-vertical-absolute">
+                    <h1 class="text-header">What is this, as i know, that was it was?</h1>
+
+                    <p class="text-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    </div>
+                        <span class="cover dark-overlay"></span>
+                        <img src="@Url.Content("~/Views/Images/pexels-photo-935756.jpeg")" class="main-image-prefs">
+
+
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="row no-gutters half-of-screen">
+                        <div class="col-lg-6 black-bg">
+                            <div class="absolute layer-4 article-preview align-vertical-absolute">
+                                <h1 class="text-header">Lorem Ipsum Dolor</h1>
+                                <p class="text-content">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="absolute layer-4 article-preview align-vertical-absolute">
+                                <h1 class="text-header">Marketing Tips</h1>
+                                <p class="text-content">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard
+                                </p>
+                            </div>
+                            <span class="cover dark-overlay "></span>
+                            <img src="@Url.Content("~/Views/Images/pexels-photo-908284.jpeg")">
+                        </div>
+                    </div>
+                    <div class="row no-gutters half-of-screen ">
+                        <div class="col-lg-6 darker">
+                            <div class="absolute layer-4 article-preview align-vertical-absolute">
+                                <h1 class="text-header">Gamedev Introduction</h1>
+                                <p class="text-content">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard
+                                </p>
+                            </div>
+                            <span class="cover dark-overlay"></span>
+                            <img src="@Url.Content("~/Views/Images/pexels-photo-577585.jpeg")">
+                        </div>
+                        <div class="col-lg-6 pink-bg">
+                            <div class="absolute layer-4 article-preview align-vertical-absolute">
+                                <h1 class="text-header align-text-center" style="font-size:5vh; color:black;">Read More Articles</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid hide-on-lg" style="padding:0px;">
+            <div class="row black-bg mobile-blog">
+
+            </div>
+        </div>
+</section>
+</main>
+<footer>
+
+</footer>

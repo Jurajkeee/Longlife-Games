@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonglifeGames", "LonglifeGames\LonglifeGames.csproj", "{D2656153-B015-484B-AA29-0935988A6BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LonglifeGames.Tests", "LonglifeGames.Tests\LonglifeGames.Tests.csproj", "{68D5EA11-29DB-4EBA-8C78-A3324F78AE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2656153-B015-484B-AA29-0935988A6BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2656153-B015-484B-AA29-0935988A6BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2656153-B015-484B-AA29-0935988A6BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2656153-B015-484B-AA29-0935988A6BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D5EA11-29DB-4EBA-8C78-A3324F78AE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D5EA11-29DB-4EBA-8C78-A3324F78AE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D5EA11-29DB-4EBA-8C78-A3324F78AE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D5EA11-29DB-4EBA-8C78-A3324F78AE55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
