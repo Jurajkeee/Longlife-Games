@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{D2656153-B015-484B-AA29-0935988A6BFE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LonglifeGames/Views/Home/Games.cshtml">
+    <Files>
+      <File FileName="LonglifeGames/Views/Css/stylesheet.css" Line="249" Column="2" />
+      <File FileName="LonglifeGames/Views/Home/AboutUs.cshtml" Line="1" Column="1" />
+      <File FileName="LonglifeGames/Views/Home/ToolDescription.cshtml" Line="11" Column="36" />
+      <File FileName="LonglifeGames/Views/Home/Tools.cshtml" Line="7" Column="18" />
+      <File FileName="LonglifeGames/Views/Home/Games.cshtml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LonglifeGames.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LonglifeGames PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="344" column="1" />
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="242" column="1" />
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="500" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
