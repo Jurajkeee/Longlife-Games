@@ -241,11 +241,20 @@ header .logo {
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~Team Page~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    .profile-picture {
-        height: auto;
-        width: 64%;
-        left: 18%;
-    }
+#preview .text-header {
+    font-size:4vw;
+}
+#preview .text-content {
+    font-size: 1.5vw;
+}
+#preview-tools .text-header{
+    font-size:7vh;
+}
+.profile-picture {
+    height: auto;
+    width: 64%;
+    left: 18%;
+}
 .round {
     border-radius: 50%;
 }
@@ -367,7 +376,7 @@ header .logo {
     text-align:center;
 }
 .big-header-text {
-    font-size: 7vh !important;
+    font-size: 4vw !important;
     width: 40%;
     line-height: 150% !important;
 }
@@ -493,6 +502,28 @@ header .logo {
 
 /*~~~~~~~~~~~~~~~~~~~~~~Media Queries~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (max-width:1000px) {
+    #story .text-content, #what-we-make .text-content{
+        font-size:2vh;
+    }
+    #preview-tools .text-header {
+        font-size: 4vh;
+    }
+    #preview .text-header {
+        font-size: 6vh;
+    }
+
+    #preview .text-content {
+        font-size: 2vh;
+    }
+    .text-container{
+        padding-top:2%;
+    }
+    .text-header {
+        font-size: 5vh;
+    }
+    .text-content{
+        font-size: 1.5vh;
+    }
     .message-overflowing-block {
         top:0px !important;
     }
@@ -557,7 +588,7 @@ header .logo {
     }
 
     .change-to-half-on-resize {
-       height: 50vh;
+       height: 50vh !important;
     }
 
     #first-carousel .slides-carousel {
