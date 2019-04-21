@@ -7,6 +7,7 @@ using System.Web.Mvc.Ajax;
 
 namespace LonglifeGames.Controllers
 {
+
     public class HomeController : Controller
     {
         public ActionResult Index()

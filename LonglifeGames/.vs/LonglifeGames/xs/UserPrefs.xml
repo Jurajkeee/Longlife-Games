@@ -1,12 +1,31 @@
 ﻿<Properties StartupConfiguration="{D2656153-B015-484B-AA29-0935988A6BFE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LonglifeGames/Views/Home/Games.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LonglifeGames/Views/Home/ContactUs.cshtml">
     <Files>
-      <File FileName="LonglifeGames/Views/Css/stylesheet.css" Line="249" Column="2" />
-      <File FileName="LonglifeGames/Views/Home/AboutUs.cshtml" Line="1" Column="1" />
-      <File FileName="LonglifeGames/Views/Home/ToolDescription.cshtml" Line="11" Column="36" />
-      <File FileName="LonglifeGames/Views/Home/Tools.cshtml" Line="7" Column="18" />
-      <File FileName="LonglifeGames/Views/Home/Games.cshtml" Line="1" Column="1" />
+      <File FileName="LonglifeGames/Views/Css/stylesheet.css" Line="585" Column="19" />
+      <File FileName="LonglifeGames/Views/Home/Index.cshtml" Line="43" Column="67" />
+      <File FileName="LonglifeGames/Views/Home/Games.cshtml" Line="76" Column="58" />
+      <File FileName="LonglifeGames/Views/Home/AboutUs.cshtml" Line="81" Column="78" />
+      <File FileName="LonglifeGames/Views/Home/ContactUs.cshtml" Line="45" Column="61" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LonglifeGames" expanded="True">
+            <Node name="LonglifeGames" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Css" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="ContactUs.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.LonglifeGames.Tests FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -14,9 +33,9 @@
   <MonoDevelop.Ide.ItemProperties.LonglifeGames PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="344" column="1" />
-      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="242" column="1" />
-      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="500" column="1" />
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="457" column="1" />
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="350" column="1" />
+      <Breakpoint file="/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/Views/Css/stylesheet.css" relfile="LonglifeGames/Views/Css/stylesheet.css" line="745" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
