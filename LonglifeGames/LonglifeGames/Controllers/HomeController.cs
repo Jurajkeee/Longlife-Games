@@ -12,37 +12,37 @@ namespace LonglifeGames.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Longlife Games";
+            ViewBag.Title = "Longlife Games - Games for everyone";
             return View();
         }
         public ActionResult AboutUs()
         {
-            ViewBag.Title = "About Us";
+            ViewBag.Title = "Longlife Games - About Us";
             return View();
         }
         public ActionResult Games()
         {
-            ViewBag.Title = "Games";
+            ViewBag.Title = "Longlife Games - Games";
             return View();
         }
         public ActionResult Tools()
         {
-            ViewBag.Title = "Tools";
+            ViewBag.Title = "Longlife Games - Tools";
             return View();
         }
         public ActionResult Team()
         {
-            ViewBag.Title = "Team";
+            ViewBag.Title = "Longlife Games - Team";
             return View();
         }
         public ActionResult Blog()
         {
-            ViewBag.Title = "Blog";
+            ViewBag.Title = "Longlife Games - Blog";
             return View();
         }
         public ActionResult ContactUs()
         {
-            ViewBag.Title = "Contact us";
+            ViewBag.Title = "Contact us - Longlife Games";
             return View();
         }
         public ActionResult Article()

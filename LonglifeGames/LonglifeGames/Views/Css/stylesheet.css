@@ -34,6 +34,128 @@ body{
             padding-left: 5%;
         }
 
+.humburger {
+     z-index: -4;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 32px;
+}
+
+
+
+#menuToggle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 32px;
+    z-index:1;
+}
+
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0; /* hide this */
+        z-index: 2; /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+
+    /*
+ * Just a quick hamburger
+ */
+    #menuToggle span {
+        display: block;
+        width: 65px;
+        height: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+    }
+
+        #menuToggle span:first-child {
+            transform-origin: 0% 0%;
+        }
+
+        #menuToggle span:nth-last-child(2) {
+            transform-origin: 0% 100%;
+        }
+
+    /* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: white;
+    }
+
+        /*
+ * But let's hide the middle one.
+ */
+        #menuToggle input:checked ~ span:nth-last-child(3) {
+            opacity: 0;
+            transform: rotate(0deg) scale(0.2, 0.2);
+        }
+
+        /*
+ * Ohyeah and the last one should go the other direction
+ */
+        #menuToggle input:checked ~ span:nth-last-child(2) {
+            transform: rotate(-45deg) translate(0, -1px);
+        }
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+    width: 103vw;
+    margin: 45px 0 0 -85vw;
+    padding: 50px;
+    padding-top: 155px;
+    background: #226D67;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s
+}
+
+    #menu li {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 70px;
+    }
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+    transform: none;
+}
+
+
+
     header ul {
         top: 50%;
         transform: translateY(-50%);
@@ -148,8 +270,9 @@ header .logo {
         }
 /*~~~~~~~~~~~~~~~~~~~~~~Blog~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #blog {
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
+    padding-bottom:100px;
 }
     #blog img {
         object-fit:cover;
@@ -492,6 +615,12 @@ fieldset {
     top: 10px;
     margin-bottom: 30px;
 }
+#blog a{
+     text-decoration:none;
+     width: inherit;
+     height: inherit;
+      
+}
 
     #contact-form button[type="submit"]:hover {
         background: #43A047;
@@ -651,14 +780,14 @@ fieldset {
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.btn > span,.btn-icon > i {
-  float:left;
-  padding:13px;
-  -webkit-transition:all .5s;
-  -moz-transition:all .5s;
-  transition:all .5s;
-  line-height:1em
-}
+    .btn > span, .btn-icon > i {
+        float: left;
+        padding: 21px 13px;
+         -webkit-transition:all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+        line-height: 1em
+    }
 
 .btn > span {
   padding:14px 18px 16px;
@@ -901,6 +1030,22 @@ fieldset {
 
 /*~~~~~~~~~~~~~~~~~~~~~~Media Queries~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (max-width:1000px) {
+    header .square {
+        position: absolute;
+        display: list-item;
+        width: 160px;
+        height: 160px;
+        padding: 0px;
+        bottom: -145px;
+        top: unset;
+        left: calc(50% - 80px);
+        background: #0EB0A3;
+        transform: rotate(45deg);
+        box-shadow: 5px 5px 12px rgba(0,0,0,0.15), 3px 3px 10px rgba(0,0,0,0.08);
+    }
+    header {
+        height:160px;
+    }
     #contact-form button[type="submit"] {
         height: 100px;
         margin: 150px 15% 150px 15%;
@@ -1220,6 +1365,37 @@ fieldset {
         display:none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -18,3 +18,10 @@
 /Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/obj/Debug/LonglifeGames.csproj.CopyComplete
 /Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/obj/Debug/LonglifeGames.dll
 /Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/obj/Debug/LonglifeGames.pdb
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/Antlr3.Runtime.dll
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/Newtonsoft.Json.dll
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/System.Web.Optimization.dll
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/WebGrease.dll
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/Antlr3.Runtime.pdb
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/Newtonsoft.Json.xml
+/Users/macbookproretina/Downloads/Disk F/Sites/Lognlife Games/LonglifeGames/LonglifeGames/bin/System.Web.Optimization.xml

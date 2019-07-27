@@ -9,19 +9,19 @@
         <div class="container-fluid" style="padding:0px;">
             <div class="row no-gutters">
                 <div class="col-lg-8 align-self-start  change-to-half-on-resize">
-                    <img src="@Url.Content("~/Views/Images/MenuV3.png")" class="slides-carousel">
+                    <img src="@Url.Content("~/Views/Images/MenuV3.png")" class="slides-carousel animated fadeIn" style=" animation-duration: 1.5s;">
                 </div>
                 <div class="col-lg-4 black-bg text-container layer-3 change-to-half-on-resize padding-5 padding-top-20vh">
-                    <h1 class="text-header">BladePade</h1>
+                    <h1 class="text-header animated fadeIn" style="animation-delay: 1s; animation-duration: 1.5s;">BladePade</h1>
 
-                    <p class="text-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    <p class="text-content animated fadeIn" style="animation-delay: 0.6s; animation-duration: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
                     </p>
                     <div>
-                        <div class="button pink-bg"><span>Learn More</span></div>
-                    </div>
+                        <a href="@Url.Action("Games", "Home")"><div class="button pink-bg fadeIn animated fadeIn" style="animation-delay: 1.4s; animation-duration: 1.5s;"><span>Learn More</span></div></a>
+</div>
                 </div>
             </div>
         </div>
@@ -33,14 +33,14 @@
         <div class="container-fluid" style="padding:0px;">
             <div class="row no-gutters half-of-screen">
                 <div class="col-lg-6 black-bg half-of-screen layer-3 to-hide">
-                    <h1 class="text-header">About us</h1>
+                    <h1 class="text-header animated fadeIn" style="animation-delay: 0.7s">About us</h1>
 
-                    <p class="text-content">
+                    <p class="text-content  animated fadeIn" style="animation-delay: 1.3s">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <div class="button pink-bg" style="height: 8vh;"><span>Learn More</span></div>
+                    <a href="@Url.Action("AboutUs", "Home")"><div class="button pink-bg animated fadeIn" style="animation-delay: 1.7s ; height: 8vh;"><span>Learn More</span></div></a>
                 </div>
                 <div class="col-lg-6 half-of-screen hide-overflow">
                     <img src="@Url.Content("~/Views/Images/pexels-photo-1509428.jpeg")">
@@ -56,15 +56,15 @@
 
 
                 <div class="col-lg-6 black-bg layer-3 ">
-                    <h1 class="text-header">Our Team</h1>
+                    <h1 class="text-header animated fadeIn" style="animation-delay: 2s">Our Team</h1>
 
-                    <p class="text-content">
+                    <p class="text-content animated fadeIn" style="animation-delay: 2.5s">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <div class="button pink-bg" style="height: 8vh;"><span>Learn More</span></div>
-                </div>
+                    <a href="@Url.Action("Team", "Home")"> <div class="button pink-bg animated fadeIn" style="animation-delay: 3.3s; height: 8vh;"><span>Learn More</span></div></a>
+</div>
             </div>
         </div>
     </section>
@@ -181,13 +181,19 @@
                             <span class="cover dark-overlay"></span>
                             <img src="@Url.Content("~/Views/Images/pexels-photo-577585.jpeg")">
                         </div>
-                        <div class="col-lg-6 pink-bg">
-                            <div class="absolute layer-4 article-preview align-vertical-absolute">
-                                <h1 class="text-header align-text-center" style="font-size:5vh; color:black;">Read More Articles</h1>
-                            </div>
 
-                        </div>
-                    </div>
+                            <div class="col-lg-6 pink-bg">
+                                <a href="@Url.Action("Blog", "Home")">
+                                    <div class="absolute layer-4 article-preview align-vertical-absolute">
+
+                                        <h1 class="text-header align-text-center" style="font-size:5vh; color:black;">Read More Articles</h1>
+
+                                    </div>
+                                </a>
+
+</div>
+
+</div>
                 </div>
             </div>
         </div>
@@ -215,7 +221,7 @@
                     </p>
                 </div>
                 <div class="row">
-                    <div class="button pink-bg"><span>Learn More</span></div>
+                    <div class="button pink-bg animated fadeIn"><span>Learn More</span></div>
                 </div>
             </div>
         </div>
