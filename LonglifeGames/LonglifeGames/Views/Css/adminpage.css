@@ -1,0 +1,233 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+.admin [class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+}
+
+.admin #loginPage {
+    padding-top: 40px;
+    width: 393px;
+    height: 380px;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-top: 1px solid #464c4c;
+    background: white;
+}
+
+.admin h1 {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 4px;
+    padding: 10px 0 20px 0;
+}
+
+.admin .orangestop {
+    color: #e76744;
+}
+
+.admin input {
+    width: 80%;
+    height: 65px;
+    background: #D1D1D1;
+    border: 0;
+    border: 3px solid black;
+    margin-left: 40.5px;
+    outline: 0;
+    padding-left: 70px;
+    font-family: 'Ubuntu';
+    color: black;
+    margin-bottom: 10px;
+}
+
+.admin .input {
+    position: relative;
+}
+
+.admin .icon {
+    position: absolute;
+    left: 65px;
+    padding: 5px 0;
+    top: -4px;
+    height: 20px;
+    width: 30px;
+    color: black;
+    transition: .7s;
+}
+
+    .admin .icon:after {
+        height: 25px;
+        width: 2px;
+        position: absolute;
+        right: 0;
+        top: 2px;
+        content: '';
+        background: #2e3a42;
+        background: -moz-linear-gradient(top, #2e3a42 0%, #3e5360 50%, #2e3a42 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e3a42), color-stop(50%,#3e5360), color-stop(100%,#2e3a42));
+        background: -webkit-linear-gradient(top, #2e3a42 0%,#3e5360 50%,#2e3a42 100%);
+        background: -o-linear-gradient(top, #2e3a42 0%,#3e5360 50%,#2e3a42 100%);
+        background: -ms-linear-gradient(top, #2e3a42 0%,#3e5360 50%,#2e3a42 100%);
+        background: linear-gradient(to bottom, #2e3a42 0%,#3e5360 50%,#2e3a42 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3a42', endColorstr='#2e3a42',GradientType=0 );
+    }
+
+.admin .input:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 5px;
+    height: 67px;
+    border-right: 5px solid;
+    border-color: #38C335;
+    border-radius: 3px;
+}
+
+.admin .color {
+    color: #e76744 !important;
+}
+
+.admin span.input:after {
+    transition: .7s;
+}
+
+.admin .border-color:after {
+    border-color: #e76744 !important;
+}
+
+.admin .forgot {
+    margin-left: 40.5px;
+    margin-right: 40.5px;
+    float: right;
+    font-size: 12px;
+    color:black;
+    font-family: 'Ubuntu';
+}
+
+.admin .divider {
+    width: 100%;
+    height: 1px;
+    background: #2b3741;
+    border-bottom: 1px solid #68777f;
+    clear: both;
+    margin-top: 30px;
+}
+
+.admin button {
+    margin-left: 40.5px;
+    margin-right: 40.5px;
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid #f0a18b;
+    background: #38C335;
+    width: 312px;
+    height: 65px;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Ubuntu';
+    -webkit-text-shadow: 0px 1px 1px #000;
+    -moz-text-shadow: 0px 1px 1px #000;
+    text-shadow: 0px 2px 1px #000;
+    -webkit-box-shadow: 0px 1px 1px #000;
+    -moz-box-shadow: 0px 1px 1px #000;
+    box-shadow: 0px 1px 1px #000;
+}
+
+.admin p {
+    margin-left: 0px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+    margin-top: 20px;
+}
+
+.admin .reg {
+    color: #38C335;
+}
+
+.admin span.password-icon-style.icon.password-icon.fontawesome-lock {
+    left: -291px;
+    top: 75px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500&display=swap&subset=latin-ext');
+
+#admin_panel {
+
+    color: red;
+    font-family: 'Source Code Pro', monospace;
+}
+    #admin_panel a {
+        color: red;
+    }
+    #admin_panel p {
+        color: red;
+    }
+    #admin_panel .left-panel-top {
+        background: black;
+        border: 3px solid red;
+        padding: 20px;
+    }
+    #admin_panel .left-panel-bottom {
+        background: black;
+        border: 3px solid red;
+        padding: 20px;
+    }
+
+    #admin_panel .middle-panel {
+        background: black;
+        border: 3px solid red;
+        padding: 20px;
+    }
+
+    #admin_panel .bottom-panel {
+        background: black;
+        border: 3px solid red;
+        padding: 20px;
+    }
+
+#admin_panel .full-screen{
+    height: 100vh;
+}
+
+
+
+#ArticleTitle {
+    background: transparent;
+    border: unset;
+    text-align: center;
+}
+#ArticleAuthor {
+    background: transparent;
+    border: unset;
+    text-align: center;
+}
+#ArticleContent {
+    background: transparent;
+    border: unset;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 1000px;
+}
+
+#article-create {
+    width: 20%;
+    padding: 10px;
+    bottom: 20px;
+    background: red;
+    margin-left: -20px;
+}

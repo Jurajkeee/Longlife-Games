@@ -7,7 +7,7 @@ using System.Web.Optimization;
     {
        public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new StyleBundle("~/bundle/css").Include("~/Views/Css/anima.css", "~/Views/Css/normalize.css", "~/Views/Css/stylesheet.css"));
+            bundles.Add(new StyleBundle("~/bundle/css").Include("~/Views/Css/anima.css", "~/Views/Css/normalize.css", "~/Views/Css/stylesheet.css", "~/Views/Css/adminpage.css"));
 
             bundles.Add(new StyleBundle("~/bundle/bootstrap/css").Include("~/Views/Bootstrap/css/bootstrap-grid.css"));
 

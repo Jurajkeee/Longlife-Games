@@ -1,37 +1,54 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@{ 
+    var style = "";
+    bool logged = false;
+    if ( Session["user"]!=null )
+    {
+        style = "red;";
+        logged = true;
+    }
+}
 
-<header class="ubuntu-font">
+<header class="ubuntu-font" style="background: @style">
     <ul class="align-vertical">
+        @if(logged)
+        {
+            <a href="@Url.Action("AdminPanel", "Home")" style="position: absolute; left: 50px;" class="to-hide">Admin</a>
+        }
         <li class="to-hide"><a href="@Url.Action("AboutUs", "Home")">About us</a></li>
         <li class="to-hide"><a href="@Url.Action("Games", "Home")">Games</a></liclass="to-hide">
         <li class="to-hide"><a href="@Url.Action("Blog", "Home")">Blog</a></li>
 
-      <li class="central-button"><a href="@Url.Action("Index", "Home")"><span class="square"><img src="@Url.Content("~/Views/Images/Logo.png")" class="logo"></span></a></li>
+        <li class="central-button"><a href="@Url.Action("Index", "Home")"><span class="square" style="background: @style"><img src="@Url.Content("~/Views/Images/Logo.png")" class="logo"></span></a></li>
 
         <li class="to-hide"><a href="@Url.Action("Tools", "Home")">Tools</a></li>
         <li class="to-hide"><a href="@Url.Action("Team", "Home")">Team</a></li>
         <li class="to-hide"><a href="@Url.Action("ContactUs", "Home")">Contact us</a></li>
 
         <li class="humburger hide-on-lg">
-                <div id="menuToggle">
-                    <input type="checkbox" />
+            <div id="menuToggle">
+                <input type="checkbox" />
 
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    
-                    <ul id="menu">
-                        <a href="@Url.Action("Index", "Home")"><li>Home</li></a>
-                        <a href="@Url.Action("AboutUs", "Home")"><li>About Us</li></a>
-                        <a href="@Url.Action("Games", "Home")"><li>Games</li></a>
-                        <a href="@Url.Action("Blog", "Home")"><li>Blog</li></a>
-                        <a href="@Url.Action("Tools", "Home")"><li>Tools</li></a>
-                        <a href="@Url.Action("Team", "Home")"><li>Team</li></a>
-                        <a href="@Url.Action("ContactUs", "Home")"><li>Contact Us</li></a>
-                    </ul>
-                </div>
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a href="@Url.Action("Index", "Home")"><li>Home</li></a>
+                    <a href="@Url.Action("AboutUs", "Home")"><li>About Us</li></a>
+                    <a href="@Url.Action("Games", "Home")"><li>Games</li></a>
+                    <a href="@Url.Action("Blog", "Home")"><li>Blog</li></a>
+                    <a href="@Url.Action("Tools", "Home")"><li>Tools</li></a>
+                    <a href="@Url.Action("Team", "Home")"><li>Team</li></a>
+                    <a href="@Url.Action("ContactUs", "Home")"><li>Contact Us</li></a>
+                    @if(logged)
+                    {
+                    <a href="@Url.Action("AdminPanel", "Home")" >Admin</a>
+                     }
+                </ul>
+            </div>
         </li>
     </ul>
 </header>

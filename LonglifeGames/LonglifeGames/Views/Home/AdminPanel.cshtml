@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<LonglifeGames.Models.ArticleModel>
+    <main>
+        <section id="admin_panel" style="margin-top: 83px">
+            <div class="row no-gutters">
+                <div class="col-lg-4 left-panel full-screen">
+
+                    <div class="half-of-screen left-panel-top">
+                        @Html.ActionLink("LogOut", "LogOut", "Home")
+
+                    </div>
+
+                    <div class="half-of-screen left-panel-bottom">
+                        @Html.ActionLink("ArticleCreate", "ArticleCreate", "Home")
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 middle-panel full-screen"  style="padding-top: 80px;">
+                    @foreach (var item in Model)
+                    {
+
+                        @Html.ActionLink(item.ArticleTitle, "ArticleUpdate", "Home", new { id = item.Id }, null)
+
+                        @Html.ActionLink(" | Delete", "ArticleDelete", "Home", new { id = item.Id }, null)
+                        <br />
+                    }
+                </div>
+
+                <div class="col-lg-4 bottom-panel full-screen">
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+

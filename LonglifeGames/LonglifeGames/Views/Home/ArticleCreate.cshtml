@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model LonglifeGames.Models.ArticleModel
+
+<main>
+    <section id="article">
+        <div class="container-fluid" style="padding:0px;">
+            <div class="row no-gutters">
+                @using (Html.BeginForm("ArticleCreate", "Home", FormMethod.Post))
+                {
+                <div class="col-lg-12 ">
+                    <div class="col-lg-12 bg-image-container hide-overflow">
+                        <div class="absolute layer-4 article-preview align-vertical-absolute align-text-center">
+
+
+                            <h1 class="text-header" style="font-size: 5vw;">
+                                @Html.TextBoxFor(Model => Model.ArticleTitle, new { @Value = "Your Title" })
+                            </h1>
+                            <p style="font-family: 'Noto Sans', sans-serif; ">
+                                @Html.TextBoxFor(Model => Model.ArticleAuthor, new { @Value = "Author" })
+                            </p>
+
+                        </div>
+                        <span class="cover dark-overlay"></span>
+                        <img src="@Url.Content(Model.ArticleImage)" class="main-image-prefs">
+                    </div>
+
+                    <div class="col-lg-8 article-text-container hide-overflow layer-3">
+                        <div class="layer-4 article-preview">
+
+
+                            <p>
+                                @Html.TextAreaFor(model => model.ArticleContent, new { @Value = "Hello" })
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                    <button id="article-create" type="submit" value="ArticleCreate">Publish</button>
+                    @Html.TextBoxFor(Model => Model.ArticleImage, new { @Value = "Image URL" })
+
+                </div>
+                }
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+

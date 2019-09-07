@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{D2656153-B015-484B-AA29-0935988A6BFE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Caches/VisualStudio/8.0/MSBuild/1154_1/Microsoft.CSharp.CurrentVersion.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LonglifeGames/App_Start/MongoConfig.cs">
     <Files>
-      <File FileName="LonglifeGames/App_Start/BundleConfig.cs" Line="14" Column="13" />
-      <File FileName="LonglifeGames/Views/Home/Index.cshtml" Line="23" Column="97" />
-      <File FileName="LonglifeGames/Views/Home/AboutUs.cshtml" Line="31" Column="92" />
-      <File FileName="LonglifeGames/Views/Css/stylesheet.css" Line="762" Column="5" />
-      <File FileName="../../../../../Library/Caches/VisualStudio/8.0/MSBuild/1154_1/Microsoft.CSharp.CurrentVersion.targets" Line="331" Column="5" />
+      <File FileName="LonglifeGames/Controllers/HomeController.cs" Line="34" Column="1" />
+      <File FileName="LonglifeGames/Views/Home/Blog.cshtml" />
+      <File FileName="LonglifeGames/Views/Home/ArticleCreate.cshtml" />
+      <File FileName="LonglifeGames/Views/Home/ArticleUpdate.cshtml" />
+      <File FileName="LonglifeGames/App_Start/MongoConfig.cs" Line="18" Column="84" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LonglifeGames" expanded="True">
-            <Node name="LonglifeGames" expanded="True">
+            <Node name="LonglifeGames" expanded="True" selected="True">
               <Node name="App_Start" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Css" expanded="True" />
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="JS" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="Global.asax" expanded="True" />
             </Node>
           </Node>
         </State>

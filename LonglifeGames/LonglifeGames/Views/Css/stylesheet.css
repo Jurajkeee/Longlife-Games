@@ -402,6 +402,51 @@ header .logo {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~Blog PAge~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#article h1, #article h2, #article h3, #article h4, #article h5, #article h6, #article p,
+ #article code, #article pre, #article strong, #article em, #article ul, #article ol, #article blockquote, #article li,
+#article a {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+}
+#article img {
+    width: 100%;
+}
+#article blockquote {
+    padding: 1%;
+    margin: 2% auto;
+    background: #fff;
+    max-width: 960px;
+    letter-spacing: 0.30px;
+    font-family: 'Roboto Slab';
+    box-shadow: 0 10px 10px rgba(0,0,0, .20);
+    color: rgba(27, 79, 114, 0.8);
+    quotes: ' ' ' ';
+    border-left: 8px solid #2ecc71;
+    font-style: italic;
+    padding-left: 20px;
+    background: #EDEDED;
+    font-weight: 800;
+    border-radius: 10px;
+}
+#article pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background: #303739;
+}
+
+#article code {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 12px;
+    color: #D1D6CC;
+}
+
 .top-image-wrapper {
     height: 60%;
     overflow: hidden;
@@ -427,6 +472,7 @@ header .logo {
     padding:3em;
 }
 .bigger-article {
+    max-height: 80vh;
     background: white;
     border-color: black;
     border-style: solid;
@@ -435,20 +481,29 @@ header .logo {
     border-left: 0px;
     border-bottom: 0px;
 }
-    .bigger-article .text-content{
-        margin-top:0px;
+    .bigger-article .text-content {
+        margin-top: 0px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
     }
 
-    .smallest-article {
-        background: white;
-        border-color: black;
-        border-style: solid;
-        border-left-width: 0px;
-        border-top-width: 20px;
-        border-right-width: 0px;
-        border-bottom-width: 0px;
-        padding-bottom:40px;
-    }
+#article form {
+    width: 100%;
+}
+.smallest-article {
+    max-height: 90vh;
+    background: white;
+    border-color: black;
+    border-style: solid;
+    border-left-width: 0px;
+    border-top-width: 20px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 3.8em;
+
+}
 .smallest-article + .smallest-article{
     border-left-width:20px;
 }
@@ -468,14 +523,22 @@ header .logo {
 }
 .smallest-article .text-header, .smallest-article .text-content {
     margin: 0px;
+
 }
     .smallest-article .text-header{
         font-size:3vh;
         margin-bottom:8px;
     }
 .smallest-article .text-content {
+    overflow: hidden;
     font-size: 2vh;
     margin-bottom: 8px;
+}
+.smallest-article .text-wrapper {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
 }
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~Team Page~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1276,10 +1339,11 @@ fieldset {
     }
 
     .smallest-article {
-        box-sizing:border-box;
+        box-sizing: border-box;
         position: relative;
         border: none;
-        display:block;
+        display: block;
+
     }
     
     .article-square {

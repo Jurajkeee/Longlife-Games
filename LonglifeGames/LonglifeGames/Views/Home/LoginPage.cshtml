@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="admin">
+    <div id='loginPage'>
+
+        @using (Html.BeginForm("LoginPage", "Home", FormMethod.Post))
+        {
+        <span class='input'>
+            <span class='icon username-icon fontawesome-user'></span>
+            @Html.ValidationMessage("login")
+            @Html.TextBox("login")
+
+        </span>
+        <span class='input'>
+            <span class='password-icon-style icon password-icon fontawesome-lock'></span>
+            @Html.ValidationMessage("password")
+            @Html.TextBox("password")
+        </span>
+
+        <div class='forgot'>Forgot Details?</div>
+        <div class='divider'></div>
+        <button type="submit" value="LoginPage">LOG IN</button>
+        <p>Don't have an account? <span class='reg'>Register.</span></p>
+        }
+    </div>
+
+</main>
+
